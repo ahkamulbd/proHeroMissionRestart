@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+}
+
+#btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+#todo-btn {
+    background: darkgreen;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#todo-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    row-gap: 60px;
+    margin-top: 30px;
+}
+
+.todo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #aaa;
+    background: navy;
+    color: white;
+    height: 100%;
+    border-radius: 20px;
+}
