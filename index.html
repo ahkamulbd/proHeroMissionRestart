@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Hero Mission Restart</title>
+    <style>
+        #post-container {
+            max-width: 1160px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 40px;
+        }
+        .post-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            height: 100%;
+        }
+        .post-card p {
+            text-align: justify;
+        }
+
+        #click-btn {
+            background-color: goldenrod;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 10px;
+        }
+    </style>
+
 </head>
 <body>
+
+    <h2>Hello JavaScript with fetching API</h2>
+    <button onclick="loadPosts ()" id="click-btn">Click</button>
+
+    <section id="post-container">
+        
+    </section>
+
+    
+    <!-- <ul id="post-container">
+
+    </ul> -->
+    
+
+
+    <script src="module4/4.3.index.js"></script>
     
 </body>
 </html>
